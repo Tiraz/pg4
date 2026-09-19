@@ -25,7 +25,7 @@ header {
 h1{
     
     color: #2330e9;
-    font-size: 500%; 
+    font-size: 250%; 
     font-family: "MyFont";
 
 }
@@ -45,7 +45,7 @@ body{
 footer{
     background-color: #e92323;
     width: 100%;
-    height: 200px;
+    height: 100px;
     margin: 0;
 }
 
@@ -114,16 +114,20 @@ table{
     justify-content: center;
 }
 
-.conteiner_get_in_loc{
-    width: 50%;
+.fundo_localizacao{
+    background-color: #23e97c;
+    width: 100%;
     height: 100%;
+    border-radius: 20px;
+    
 }
+
 
 .container_contatos{
     background-color: #e923e9;
     border-radius: 20px;
     width: 100%;
-    height: 100%;
+    height: 93.7%;
     padding: 20px 80px 20px 80px;
     
 
@@ -145,13 +149,12 @@ table{
 }
 
 .cabecalho_contatos{
-    width: 50%;
+    width: 100%;
     height: 100%;
     display: flex;
     flex-direction: column;
     text-align: center;
-    justify-content: center;
-    align-items: center;
+
 
 }
 
